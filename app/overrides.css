@@ -1,0 +1,23 @@
+.chat {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  text-align: left;
+}
+
+.api-notice {
+  position: fixed;
+  z-index: 7;
+  right: 22px;
+  bottom: 70px;
+  max-width: 300px;
+  padding: 10px 12px;
+  border: 1px solid #fa6846;
+  background: #fff3ef;
+  box-shadow: 0 4px 16px #0002;
+  color: #923625;
+  font-size: 12px;
+}
+
+button:disabled { cursor: not-allowed; opacity: .65; }
